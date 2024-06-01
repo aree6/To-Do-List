@@ -1,0 +1,124 @@
+body {
+    font-family: Avenir Next, sans-serif;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+input{
+
+border: none;
+outline: none;
+background: transparent;
+border-radius: 4px;
+}
+
+.outerBox{
+    
+    background-color: yellow;
+    width: 500px;
+    height: auto;
+    border-radius: 40px;
+    border: 1px solid black;
+    margin-top: 20vh;
+   
+    
+}
+
+
+
+
+
+
+.box{
+
+    display: flex;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+
+
+.taskList{
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.heading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.heading h1{
+    text-align: center;
+    background: linear-gradient(to right, rgb(0, 0, 128), rgb(0, 191, 255)); /* Dramatic blue gradient */
+    background-clip: text; /* For non-WebKit browsers */
+    -webkit-background-clip: text; /* For WebKit browsers */
+    color: transparent; /* Makes text fill transparent */
+    -webkit-text-fill-color: transparent; /* For WebKit browsers */
+}
+
+.heading img{
+    height: 60px;
+    width: auto;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+ button {
+    
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    
+}
+
+ul {
+    list-style-type: none;
+   
+    border-radius: 30px;
+    padding-left: 5px;
+    margin-bottom: 25px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    margin-bottom: 25px;
+    transition: 0.1s ease;
+    
+}
+
+
+
+li button {
+    border: none;
+    outline: none;
+    padding: 4px 13px;
+    background: #4564ff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
