@@ -12,13 +12,37 @@ body{
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    border:0px;
-    background-image: url("background1.jpg");
+    border: 0px;
+    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+    background-size:500% 500%;
+    animation: color 12s ease-in-out infinite;
+    
+  /* background-image: url("background1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
+
+
+
+
 }
+
+   
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+    
+
+  
 .heading{
     box-sizing: content-box;
     height: 37px;
