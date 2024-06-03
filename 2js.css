@@ -15,7 +15,7 @@ body{
     border: 0px;
     background: linear-gradient(45deg, #d2001a, #7462ff, #56f421, #085744);
     background-size:500% 500%;
-    animation: color 3s ease-in-out 1;
+    animation: color 4s ease-in-out 1;
     
   /* background-image: url("background1.jpg");
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body{
     height: 100%;
     padding-left: 10px;
     color: #0e6ffc;
-    animation: spin_words 6s infinite;
+    animation: spin_words 4s 1;
     font-size: 30px;
     font-weight: 500;
 }
@@ -214,9 +214,9 @@ li {
     
     
 }
-li:hover {
-    transform: scale(1.01);
-    box-shadow: 0px 2px 15px rgba(16, 79, 189, 0.15);
+li:hover span {
+    transform: scale(1.1);
+    /* box-shadow: 0px 2px 15px rgba(16, 79, 189, 0.15); */
 }
 
 

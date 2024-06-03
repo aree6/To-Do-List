@@ -14,8 +14,7 @@ document.querySelector("button").addEventListener('click',function(){
             let taskCheckbox = document.createElement('input');
             taskCheckbox.type = "checkbox";
             
-            let editBtn = document.createElement('button');
-            editBtn.textContent= "Edit";
+          
 
             let deleteBtn = document.createElement('button');
             deleteBtn.textContent = "Delete";
@@ -24,10 +23,10 @@ document.querySelector("button").addEventListener('click',function(){
             document.querySelector("ul").append(newListItem);
             newListItem.append(taskCheckbox);
             newListItem.append(spanText);
-            newListItem.append(editBtn);
+            
             newListItem.append(deleteBtn);
 
-
+   
             taskCheckbox.addEventListener('change',function(){
                 
                 if(taskCheckbox.checked){
@@ -44,7 +43,7 @@ document.querySelector("button").addEventListener('click',function(){
             
             });
 
-            editBtn.addEventListener('click', function() {
+            spanText.addEventListener('click', function() {
                 let newInput = prompt("Edit your task", spanText.textContent);
                 if (newInput !== null && newInput.trim() !== "") {
                     spanText.textContent = newInput.trim();
@@ -63,24 +62,12 @@ document.querySelector("button").addEventListener('click',function(){
                 
             });
 
-            
-
-
-
-
-
-
-
-
-
             document.querySelector("input").value="";  
         }
         else{
             
             alert("Enter Something");
         } 
-       
-
-
+  
 });
 
