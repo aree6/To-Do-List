@@ -157,6 +157,8 @@ border-radius: 4px;
 button:hover {
     transform: scale(1.03);
     box-shadow: 0px 2px 15px rgba(16, 79, 189, 0.15);
+    background: #4564ff;
+    color: #fff;
 }
 
 
