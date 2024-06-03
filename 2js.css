@@ -13,7 +13,7 @@ body{
     justify-content: center;
     border-radius: 10px;
     border: 0px;
-    background: linear-gradient(45deg, #d2001a, #7462ff, #56f421, #085744);
+    background: linear-gradient(45deg, #d2001a, #7462ff, #0f2027, #2c5364);
     background-size:500% 500%;
     animation: color 4s ease-in-out 1;
     
