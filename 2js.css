@@ -13,9 +13,9 @@ body{
     justify-content: center;
     border-radius: 10px;
     border: 0px;
-    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+    background: linear-gradient(45deg, #d2001a, #7462ff, #56f421, #085744);
     background-size:500% 500%;
-    animation: color 12s ease-in-out infinite;
+    animation: color 3s ease-in-out 1;
     
   /* background-image: url("background1.jpg");
     background-repeat: no-repeat;
